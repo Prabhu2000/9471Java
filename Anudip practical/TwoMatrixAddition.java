@@ -1,12 +1,5 @@
 import java.util.Scanner;
 public class Add{
-public static void arr(){
-int c[i][j]=new int [i][j];
-c[i][j]=a[i][j]+b[i][j];
-System.out.println(c[i][j]+"");
-}
-System.out.println("");
-}
 public static void main(String[] args){
 int a,b;
 Scanner sc= new Scanner(System.in)
@@ -37,6 +30,15 @@ for(int j=0;j<col;j++){
 System.out.println(b[i][j]+"");
 }
 System.out.println("");
+}
+int c[i][j]=new int [i][j];
+System.out.println("addition of two matrix");
+c[i][j]=a[i][j]+b[i][j];
+System.out.println(c[i][j]+"");
+}
+System.out.println("");
+}
+}
 }
 
 
