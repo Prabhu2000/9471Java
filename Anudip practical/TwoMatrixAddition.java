@@ -1,17 +1,21 @@
 import java.util.Scanner;
 public class Add{
 public static void main(String[] args){
-int a,b;
-Scanner sc= new Scanner(System.in)
-System.out.println("Enter your size of matrix 1");
-int a[][]=new int[row][col]
+int row,col;
+Scanner sc= new Scanner(System.in);
+System.out.println("enter your no of row");
+row=sc.nextInt();
+System.out.println("Enter your no of col");
+col=sc.nextInt();
+System.out.println("Enter"+ row*col +"matrix 1");
+int a[][]=new int[row][col];
 for(int i=0;i<row;i++){
 for(int j=0;j<col;j++){
 a[i][j]=sc.nextInt();
 }
 }
-System.out.println("Enter your size of matrix 2")
-int b[][]=new int[row][col]
+System.out.println("Enter"+row*col+ "matrix 2");
+int b[][]=new int[row][col];
 for(int i=0;i<row;i++){
 for(int j=0;j<col;j++){
 b[i][j]=sc.nextInt();
