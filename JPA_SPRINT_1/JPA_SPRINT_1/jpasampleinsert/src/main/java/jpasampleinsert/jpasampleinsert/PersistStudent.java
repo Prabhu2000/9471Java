@@ -18,17 +18,17 @@ public class PersistStudent
 em.getTransaction().begin();  
           
         StudentEntity s1=new StudentEntity();  
-        s1.setS_id(101);  
+        //s1.setS_id(101);  
         s1.setS_name("Gaurav");  
         s1.setS_age(24);  
           
         StudentEntity s2=new StudentEntity();  
-        s2.setS_id(102);  
+        //s2.setS_id(102);  
         s2.setS_name("Ronit");  
         s2.setS_age(22);  
           
         StudentEntity s3=new StudentEntity();  
-        s3.setS_id(103);  
+        //s3.setS_id(103);  
         s3.setS_name("Rahul");  
         s3.setS_age(26);  
           
